@@ -22,4 +22,9 @@ Go the notebooks folder and execute ```CombineSeaWIFS.ipynb```. This will genera
 
 ## Interpolate and fill SeaWIFS data
 
-Go the notebooks folder and execute ```Interpolate_and_fill_SeaWIFS.ipynb```. This will generated file ```ncfiles/????.nc```
+First, go to ncfiles folder and generated a netCDF files using the provided *.cdl template:
+```
+ncgen -o seawifs-clim-1997-2010-tx0.66v1.nc seawifs-clim-1997-2010-tx0.66v1.cdl
+```
+
+Then go the notebooks folder and execute ```Interpolate_and_fill_SeaWIFS.ipynb```. This will generated the final file ```ncfiles/seawifs-clim-1997-2010-tx0.66v1.nc```
