@@ -2,6 +2,14 @@
 
 Collection of Python notebooks for generating a chlorophyll dataset for MOM6 applications.
 
+## Requirements
+* dask        >= 2.12.0
+* matplotlib  >= 3.1.2
+* netcdf4     >= 1.5.3
+* numpy       >= 1.19.4
+* scipy       >= 1.4.0
+* xarray      >= 0.15.0
+
 ## Download chlorophyll data
 
 Follow these steps:
